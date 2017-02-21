@@ -12,7 +12,7 @@
         <!--Login View Controller-->
         <scene sceneID="T61-w1-FGl">
             <objects>
-                <viewController id="nw7-yJ-Y3V" customClass="MWLoginViewController" customModule="MeltwaterKit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MWLoginViewController" id="nw7-yJ-Y3V" customClass="MWLoginViewController" customModule="MeltwaterKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6M0-Ry-fwn"/>
                         <viewControllerLayoutGuide type="bottom" id="kwS-EJ-kkA"/>
