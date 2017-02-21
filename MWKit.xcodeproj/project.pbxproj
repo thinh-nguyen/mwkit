@@ -22,8 +22,9 @@
 		B200576C1E4E92E500997F58 /* MeltwaterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20057571E4E92E500997F58 /* MeltwaterKit.framework */; };
 		B200576D1E4E92E500997F58 /* MeltwaterKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B20057571E4E92E500997F58 /* MeltwaterKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B200579F1E4EB4D800997F58 /* MWRainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B200579E1E4EB4D800997F58 /* MWRainbow.swift */; };
-		B20057A21E520A6500997F58 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20057A11E520A6500997F58 /* Storyboard.storyboard */; };
+		B20057A21E520A6500997F58 /* MeltwaterKit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20057A11E520A6500997F58 /* MeltwaterKit.storyboard */; };
 		B20057A51E520B0200997F58 /* MWLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20057A41E520B0200997F58 /* MWLoginViewController.swift */; };
+		B2C735DA1E5BD711007ABB04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C735D91E5BD711007ABB04 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,8 +102,9 @@
 		B20057661E4E92E500997F58 /* MeltwaterKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeltwaterKitTests.swift; sourceTree = "<group>"; };
 		B20057681E4E92E500997F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B200579E1E4EB4D800997F58 /* MWRainbow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MWRainbow.swift; path = UI/MWRainbow.swift; sourceTree = "<group>"; };
-		B20057A11E520A6500997F58 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = UI/Storyboard.storyboard; sourceTree = "<group>"; };
+		B20057A11E520A6500997F58 /* MeltwaterKit.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MeltwaterKit.storyboard; path = UI/MeltwaterKit.storyboard; sourceTree = "<group>"; };
 		B20057A41E520B0200997F58 /* MWLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MWLoginViewController.swift; path = Controllers/MWLoginViewController.swift; sourceTree = "<group>"; };
+		B2C735D91E5BD711007ABB04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,7 +220,8 @@
 				B20057A01E4EB4E200997F58 /* UI */,
 				B20057591E4E92E500997F58 /* MeltwaterKit.h */,
 				B200575A1E4E92E500997F58 /* Info.plist */,
-				B20057A11E520A6500997F58 /* Storyboard.storyboard */,
+				B20057A11E520A6500997F58 /* MeltwaterKit.storyboard */,
+				B2C735D91E5BD711007ABB04 /* Assets.xcassets */,
 			);
 			path = MeltwaterKit;
 			sourceTree = "<group>";
@@ -446,7 +449,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B20057A21E520A6500997F58 /* Storyboard.storyboard in Resources */,
+				B2C735DA1E5BD711007ABB04 /* Assets.xcassets in Resources */,
+				B20057A21E520A6500997F58 /* MeltwaterKit.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,7 +598,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -638,7 +642,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -827,6 +831,7 @@
 				B20057481E4E79EF00997F58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B20057491E4E79EF00997F58 /* Build configuration list for PBXNativeTarget "MWKitTests" */ = {
 			isa = XCConfigurationList;
@@ -835,6 +840,7 @@
 				B200574B1E4E79EF00997F58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B200574C1E4E79EF00997F58 /* Build configuration list for PBXNativeTarget "MWKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -843,6 +849,7 @@
 				B200574E1E4E79EF00997F58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B200576E1E4E92E500997F58 /* Build configuration list for PBXNativeTarget "MeltwaterKit" */ = {
 			isa = XCConfigurationList;
@@ -851,6 +858,7 @@
 				B20057701E4E92E500997F58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B20057721E4E92E500997F58 /* Build configuration list for PBXNativeTarget "MeltwaterKitTests" */ = {
 			isa = XCConfigurationList;
@@ -859,6 +867,7 @@
 				B20057741E4E92E500997F58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
