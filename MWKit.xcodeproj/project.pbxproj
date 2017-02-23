@@ -23,7 +23,7 @@
 		B200576D1E4E92E500997F58 /* MeltwaterKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B20057571E4E92E500997F58 /* MeltwaterKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B200579F1E4EB4D800997F58 /* MWRainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B200579E1E4EB4D800997F58 /* MWRainbow.swift */; };
 		B20057A21E520A6500997F58 /* MeltwaterKit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20057A11E520A6500997F58 /* MeltwaterKit.storyboard */; };
-		B20057A51E520B0200997F58 /* MWLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20057A41E520B0200997F58 /* MWLoginViewController.swift */; };
+		B26471771E5C9608006F745C /* MWLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26471761E5C9608006F745C /* MWLoginViewController.swift */; };
 		B2C735DA1E5BD711007ABB04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C735D91E5BD711007ABB04 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -103,7 +103,7 @@
 		B20057681E4E92E500997F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B200579E1E4EB4D800997F58 /* MWRainbow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MWRainbow.swift; path = UI/MWRainbow.swift; sourceTree = "<group>"; };
 		B20057A11E520A6500997F58 /* MeltwaterKit.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MeltwaterKit.storyboard; path = UI/MeltwaterKit.storyboard; sourceTree = "<group>"; };
-		B20057A41E520B0200997F58 /* MWLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MWLoginViewController.swift; path = Controllers/MWLoginViewController.swift; sourceTree = "<group>"; };
+		B26471761E5C9608006F745C /* MWLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MWLoginViewController.swift; path = classes/MWLoginViewController.swift; sourceTree = "<group>"; };
 		B2C735D91E5BD711007ABB04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -216,7 +216,7 @@
 		B20057581E4E92E500997F58 /* MeltwaterKit */ = {
 			isa = PBXGroup;
 			children = (
-				B20057A31E520AA100997F58 /* Controllers */,
+				B20057A31E520AA100997F58 /* classes */,
 				B20057A01E4EB4E200997F58 /* UI */,
 				B20057591E4E92E500997F58 /* MeltwaterKit.h */,
 				B200575A1E4E92E500997F58 /* Info.plist */,
@@ -243,12 +243,12 @@
 			name = UI;
 			sourceTree = "<group>";
 		};
-		B20057A31E520AA100997F58 /* Controllers */ = {
+		B20057A31E520AA100997F58 /* classes */ = {
 			isa = PBXGroup;
 			children = (
-				B20057A41E520B0200997F58 /* MWLoginViewController.swift */,
+				B26471761E5C9608006F745C /* MWLoginViewController.swift */,
 			);
-			name = Controllers;
+			name = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -495,7 +495,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B20057A51E520B0200997F58 /* MWLoginViewController.swift in Sources */,
+				B26471771E5C9608006F745C /* MWLoginViewController.swift in Sources */,
 				B200579F1E4EB4D800997F58 /* MWRainbow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
